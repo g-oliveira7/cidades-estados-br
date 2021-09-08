@@ -1,12 +1,12 @@
-package br.com.contterjan.gestao_empresas.config;
+package service_db.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-import br.com.contterjan.gestao_empresas.services.DBService;
-import br.com.contterjan.gestao_empresas.services.DBService2;
+import service_db.services.DBService;
+import service_db.services.DBService2;
 
 @Configuration
 @Profile("test")

@@ -1,4 +1,4 @@
-package br.com.contterjan.gestao_empresas.domain;
+package service_db.domain;
 
 import java.io.Serializable;
 

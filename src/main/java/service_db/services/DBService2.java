@@ -1,14 +1,14 @@
-package br.com.contterjan.gestao_empresas.services;
+package service_db.services;
 
 import java.util.Arrays;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.contterjan.gestao_empresas.domain.Cidade;
-import br.com.contterjan.gestao_empresas.domain.Estado;
-import br.com.contterjan.gestao_empresas.repositories.CidadeRepository;
-import br.com.contterjan.gestao_empresas.repositories.EstadoRepository;
+import service_db.domain.Cidade;
+import service_db.domain.Estado;
+import service_db.repositories.CidadeRepository;
+import service_db.repositories.EstadoRepository;
 
 @Service
 public class DBService2 {
